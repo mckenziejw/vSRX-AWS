@@ -28,12 +28,12 @@
     "PubSubnet1" : {
       "Description" : "Address range for vSRX VPC management subnet.",
       "Type" : "String",
-      "Default" : "200.0.254.0/24"
+      "Default" : "200.0.4.0/24"
     },
     "PubSubnet2" : {
       "Description" : "Address range for vSRX VPC data subnet to be created in AZ1.",
       "Type" : "String",
-      "Default" : "200.0.1.0/24"
+      "Default" : "200.0.5.0/24"
     },
     "VSRXType" : {
       "Description" : "Virtual machine size required for VSRX instances.",
